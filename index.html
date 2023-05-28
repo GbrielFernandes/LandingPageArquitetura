@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SiteDeArquitetura</title>
+</head>
+<body>
+    <div id="header">
+        <div class="textoSuperior">
+            <h1>Tradição em projetos de arquitetura</h1>
+            <p>Arquitetura residencial e comercial.</p>
+        </div>
+    </div>
+    <div id="informações">
+        <div class="TextoInformacoes">
+            <h3>850</h3>
+            <p>Empreendimentos construídos</p>
+        </div>
+        <div class="TextoInformacoes">
+            <h3>40</h3>
+            <p>anos de mercado e experiência</p>
+        </div>
+        <div class="TextoInformacoes">
+            <h3>2,000,000</h3>
+            <p>m² em projetos construídos</p>
+        </div>
+    </div>
+    <div id="sectionPrincipal">
+        <div>
+            <h1>Arquitetos com História e Experiência</h1>
+            <p>
+                Nós realizamos desde 2002 projetos e gerenciamento de obras. <br>
+                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo <br>
+                como principal proposta transformar em realidade os sonhos de <br>
+                seus clientes, criando projetos
+            </p>
+        </div>
+        <img onclick="TrocarDeImagem()" style="cursor:pointer;" id="imagem" src="/Imagens/imagem1.svg" alt="">
+        <img onclick="TrocarNovamente()" id="imagem2" src="/Imagens/imagem.jpg" alt="" style="width:600px; border-radius:25px;">
+    </div>
+    <div id="footer">
+        <h1>Conheça mais sobre nossos serviços:</h1>
+        <form target="_blank" action="https://api.sheetmonkey.io/form/n5SaWykyQJ2yG56rZzzzVs" method="post">
+            <input type="text" placeholder="Nome" name="Name" required> <br><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <input type="email" placeholder="Email" name="Email"> <br><br>
+            <button type="submit" value="Sign Up">Fale Conosco</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
